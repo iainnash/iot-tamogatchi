@@ -1,0 +1,16 @@
+{
+  "name": "ble-assistant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "find_ble.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dark-sky": "^1.1.5",
+    "js-yaml": "^3.12.2",
+    "noble": "^1.9.1"
+  }
+}

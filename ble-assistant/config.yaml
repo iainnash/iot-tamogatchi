@@ -1,0 +1,30 @@
+live_data:
+  darksky_key: 38a7e5eafb7db8c9018ba55b2aaecc02
+  location:
+    lat: 42.3601
+    lng: -71.0589
+rules:
+  WEATHER:
+    comfortable_high: 82
+    comfortable_low: 68
+    max_delta: 8
+  SLEEP:
+    typical_bedtime: 23
+    ambient_night: 2
+  LIGHTS:
+    midday_range_hours: 5
+    indoor_amount: 4
+  AIR_QUALITY:
+    warn_max: 40
+    error_max: 100
+ble_device_service: 2d441758-e231-4bf3-a514-d447cb8d55dc
+write_ble_screen: 2d441758-e231-4bf3-a514-d447cb8d55dd
+read_ble:
+  - type: TEMP
+    characteristic: 2d441758-e231-4bf3-a514-d447cb8d55de
+  - type: AIR_QUALITY
+    characteristic: 2d441758-e231-4bf3-a514-d447cb8d55e0
+  - type: HAS_MOTION
+    characteristic: 2d441758-e231-4bf3-a514-d447cb8d55e1
+  - type: AMBIENT_LIGHT
+    characteristic: 2d441758-e231-4bf3-a514-d447cb8d55e3
